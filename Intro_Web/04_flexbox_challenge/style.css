@@ -1,0 +1,61 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.padre{
+    height: 600px;
+    width: 600px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo{
+    height: 25%;
+    width: 25%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nieto{
+    height: 25%;
+    width: 25%;
+    border: 2px solid red;
+    display: flex;
+}
+
+.madre{
+    height: 600px;
+    width: 600px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija{
+    height: 25%;
+    width: 25%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nieta{
+    height: 25%;
+    width: 25%;
+    border: 2px solid red;
+    display: flex;
+}

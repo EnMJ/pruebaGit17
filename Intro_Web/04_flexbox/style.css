@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+/* El contenedor mayor es el que va a indicar la posiciòn de los elementos de su interior */
+.main{
+    border: 2px solid blue;
+    height: 500px;
+    width: 500px;
+    /* Primer paso es usar display flex */
+    display: flex;
+    /* Mover los elementos en el eje X u Horizontal. Para centrar los elementos */
+    justify-content: space-around;
+    /* Mover los elementos en el eje Y o de manera vertical */
+    align-items: center;
+    /* para poner los elementos de manera vertical. OJO, invierte los ejes, entonces justify content y align items cabian (se invierten) */
+    flex-direction: column;
+
+} 
+
+.main2{
+    border: 2px solid blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secundary{
+    border: 2px solid red;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secundary2{
+    border: 2px solid red;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main1{
+    border: 2px solid blue;
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+} 
+
+.main21{
+    border: 2px solid blue;
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}

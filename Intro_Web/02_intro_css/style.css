@@ -1,0 +1,62 @@
+
+            /* selector de etiqueta */
+
+body{
+background-color: rgb(0, 183, 255);
+/* font-family: 'Water Brush', cursive; */
+}
+
+h1{
+    font-family: 'Water Brush', cursive;
+    font-size: 64px;
+    /* Se puede poner fondo solamente al texto */
+    background-color: black;
+    /* alinear texto (center, right, left, justify */
+    text-align: center;
+    /* lineas para texto(subrayado, tachado, etc */
+    text-decoration: underline;
+}
+
+/* Se pueden compartr caracteristicas de la siguiente manera */
+h1,h4{
+    color: blueviolet;
+}
+
+h4{
+    text-align: right;
+}
+
+
+p{
+   color: white;
+   font-size: 30px;
+   font-weight: bolder; 
+   text-align: justify;
+}
+    
+img{
+    height: 300px;
+    width: 300px;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+            /* selector de tipo clase */
+
+.rojo{
+    color: red;
+}
+
+
+#especial{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
+}
+    

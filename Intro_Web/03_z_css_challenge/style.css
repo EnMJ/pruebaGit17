@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(53, 54, 58) ;
+    /* border: 3px solid #ed0b0b; */
+}
+
+#Encabezado{
+    color: white;
+    /* border: 3px solid hsl(123, 87%, 37%); */
+   font-size: 10px;
+   font-weight: lighter; 
+   float: right;
+   display: flex;
+}
+
+#Gmail{
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
+    /* border: 3px solid #422ade; */
+}
+
+#Imágenes{
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
+    /* border: 3px solid #422ade; */
+}
+
+#GoogleApps{
+    padding: 15px 5px 5px 5px;
+    margin: 10px;
+    /* border: 3px solid #422ade; */
+}
+
+#Google{
+    text-align: center;
+    /* border: 3px solid #ea14d8; */
+    margin: 25px 0px 0px 0px;
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.Titulo{
+    color: aliceblue;
+    font-size: 100px;
+    /* border: 3px solid #b9ea05; */
+    padding: 0px 0px 0px 0px;
+}
+
+#Barras{
+    position: relative;
+    /* border: 3px solid #0ffae6; */
+    text-align: center;
+}
+  
+#lupa{
+    background-color: rgb(53, 54, 58); 
+    /* border: 3px solid #f65505; */
+    display: inline-block;
+    padding: 15px 5px 5px 5px;
+}
+
+#Buscador{
+    background-color: rgb(53, 54, 58); 
+    /* border: 3px solid #f65505; */
+    display: inline-block;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+}
+
+#Micro{
+    background-color: rgb(53, 54, 58);
+    /* border: 3px solid #f65505; */
+    display: inline-block;
+    padding: 15px 5px 5px 5px;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+    /* border: 3px solid rgb(3, 3, 3); */
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    /* border: 3px solid rgb(3, 3, 3); */
+}
+
+#Atajos{
+    /* border: 3px solid hsl(123, 87%, 37%); */
+    position: relative;
+    text-align: center;
+   
+}
+
+.Chrome{
+    display: inline-block;
+    /* border: 3px solid #f65505; */
+    margin: 16px;
+
+}
+
+.Facebook{
+    display: inline-block;
+    /* border: 3px solid #f65505; */
+   margin: 16px;
+}
+
+.Instagram{
+    display: inline-block;
+    /* border: 3px solid #f65505; */
+  margin: 16px;
+}
+
+.Youtube{
+    display: inline-block;
+    /* border: 3px solid #f65505; */
+  margin: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
