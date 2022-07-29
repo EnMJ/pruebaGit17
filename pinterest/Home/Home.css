@@ -1,0 +1,133 @@
+* {
+    margin: 0.5px;
+    padding:2px;
+}
+.nav-bar{
+    position: relative;
+}
+.logo-pinterest .Barra{
+    display: flex;
+    width: 100%;
+}
+/* BOTÓN INICIO */
+.btn btn-light {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 29, 29) !important;
+    color: aqua;
+}
+/* BOTÓN HOY */
+.btn btn-light {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 54, 54) !important;
+}
+.logo-pinterest img.Logo{
+    align-items: flex-start;
+    width: 40px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Campana{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Globo{
+    align-items: flex-start;
+    width: 25px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Letra{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Lista{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest{
+    display: flex;
+}
+.logo-pinterest .input{
+    display: flex;
+}
+.form-control me-2{
+    color: gray;
+    background-color: gray;
+}
+.d-flex{
+    border-radius: 30px;
+}
+.prueba{
+    background-color: red;
+}
+:root{
+    --card_width: 250px;
+    --card_border_radius: 16px;
+    --row_increment: 10px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor_pin{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+    background-color: white;
+}
+.carta{
+    padding: 0px;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.cartap{
+    grid-row-end: span var(--card_small);
+}
+.cartam{
+    grid-row-end: span var(--card_medium);
+}
+.cartag{
+    grid-row-end: span var(--card_large);
+}
+.carta img {
+    width:100%;
+    border-radius: var(--card_border_radius);
+    height: 100%;
+}
+.greda2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.image{
+    margin-left: 15px;
+    border-radius: 100% !important;
+    height:25px !important;
+    width: 25px !important;
+}
+.darso{
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+}

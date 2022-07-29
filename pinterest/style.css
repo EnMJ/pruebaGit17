@@ -1,0 +1,401 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: white;
+}
+
+/* Enrique  */
+
+    .Acercamiento{
+        margin: 0px;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: 1.5fr 6fr 1.5fr;
+        height: 800px;
+        padding: 0px;
+        place-content: center center;        
+    }
+    
+    .Acercamiento a{
+        color: black;
+    }
+
+    .Acercamiento .container{ 
+        display: flex;
+    }    
+
+    .recuadro{
+        margin: 0px;
+        column-gap: 20px;
+        display: grid;
+        border-radius: 5px;
+        grid-template-columns: 1fr 1fr;
+        height: 100%;
+        padding: 0px;
+        place-content: center center;
+        border-radius: 70px;
+        border: 4px outset rgba(255, 255, 255, 0.468);
+    }
+
+    .Acercamiento .recuadro .Info .navbar.bg-light{
+        padding: 0;
+    }
+
+    .Info{
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        text-align: justify;
+        font-size:15px;
+        padding-right: 14px;
+    }
+
+    .Info img{
+        border-radius: 100%;
+    }
+
+    .Info a{
+        width: 25%;
+    }
+
+    .Info .navbar bg-light{
+        padding: white;
+    }
+
+    .profile{
+        display: flex;
+    }
+
+    .navbar-brand{
+        justify-content: space-between;
+        background-color: white;
+        padding:  white;
+    }
+
+    .Artist{
+        width: 100%;
+        margin: 5px;
+    }
+    .Artista div.container{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Artista a{
+        display: flex;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .let{
+        font-size: 15px;
+    }
+
+    .Seguidores{
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .Seguidores img{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ZoomIn .BotonImg .btn.btn-primary{
+        position: relative;
+        bottom: 70px;
+        left: 26px;
+        background-color: hwb(0 82% 16%);
+        border-radius: 25px; */
+    } 
+
+    .ZoomIn img{
+        width: 100%;
+        height: 100%;
+        border-radius: 62px 0 0 62px;
+    }
+
+    .ZoomIn .BotonLupa .btn.btn-primary{
+        position: relative;
+        bottom: 107px;
+        left: 280px;
+        background-color: hwb(0 82% 16%);
+        border-radius: 25px;
+    }
+  
+    .ZoomIn .BotonLupa img.Botlup{
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50% !important;
+        background-color: #c1c1c1;
+    }
+
+    .container{
+        background-color: white;
+    }
+
+    .Comentarios .collapse .card.card-body{
+        
+        border: none;
+        border-radius: 20px;
+        /* width: 80%; */
+    }
+    .Comentarios .collapse .card.card-body .mb-3 {
+        width: 80%;
+    }
+
+    .Comentarios .collapse .card.card-body .mb-3 .form-control{
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    .Comentarios .collapse .card.card-body .my .btn.btn-light{
+        border-radius: 50%;
+    }
+
+    .my{
+        width: 10%;
+        margin: 0px;
+    }
+
+    .acciones{
+    }
+
+    .Acercamiento .recuadro .Info .navbar.bg-light .container .navbar-brand .acciones .btn.btn-primary{
+        background-color: white;
+        border: none;
+    }
+
+    .Enlace .offcanvas{
+        width:50%;
+        height: 20%;
+        align-items: center;
+        justify-items: center;
+    }
+
+
+
+
+/* Enrique */
+
+/* .contenedor {
+    width:90%;
+    margin:15px auto;
+   
+}
+.elemento {
+    width:220px;
+    background:#fff;
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
+    text-size-adjust: none;
+  
+}
+.elemento p {
+    padding:10px;
+    font-size:13px;
+}
+.elemento img {
+    width:100%;
+} */
+
+:root{
+    --card_width: 250px;
+    --card_border_radius: 16px;
+    --row_increment: 10px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor_pin{
+    margin: 0;
+    padding: 0;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+    background-color: white;
+}
+.carta{
+    padding: 0px;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.cartap{
+    grid-row-end: span var(--card_small);
+}
+.cartam{
+    grid-row-end: span var(--card_medium);
+}
+.cartag{
+    grid-row-end: span var(--card_large);
+}
+.carta img {
+    width:100%;
+    border-radius: var(--card_border_radius);
+    height: 100%;
+}
+.greda2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.image{
+    margin-left: 15px;
+    border-radius: 100% !important;
+    height:25px !important;
+    width: 25px !important;
+}
+.darso{
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    position: relative;
+}
+.logo-pinterest .Barra{
+    display: flex;
+    width: 100%;
+}
+/* BOTÓN INICIO */
+.btn btn-light {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 29, 29) !important;
+    color: aqua;
+}
+/* BOTÓN HOY */
+.btn btn-light {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 54, 54) !important;
+}
+.logo-pinterest img.Logo{
+    align-items: flex-start;
+    width: 40px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Campana{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Globo{
+    align-items: flex-start;
+    width: 25px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Letra{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest img.Lista{
+    align-items: flex-start;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px solid black;
+}
+.logo-pinterest{
+    display: flex;
+}
+.logo-pinterest .input{
+    display: flex;
+}
+.form-control me-2{
+    color: gray;
+    background-color: gray;
+}
+.d-flex{
+    border-radius: 30px;
+}
+.prueba{
+    background-color: red;
+}
+:root{
+    --card_width: 250px;
+    --card_border_radius: 16px;
+    --row_increment: 10px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor_pin{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+    background-color: white;
+}
+.carta{
+    padding: 0px;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.cartap{
+    grid-row-end: span var(--card_small);
+}
+.cartam{
+    grid-row-end: span var(--card_medium);
+}
+.cartag{
+    grid-row-end: span var(--card_large);
+}
+.carta img {
+    width:100%;
+    border-radius: var(--card_border_radius);
+    height: 100%;
+}
+.greda2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.image{
+    margin-left: 15px;
+    border-radius: 100% !important;
+    height:25px !important;
+    width: 25px !important;
+}
+.darso{
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+}
